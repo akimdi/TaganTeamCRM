@@ -1,0 +1,14 @@
+{:uriI"–file://vendor/assets/components/matchmedia/test/iframe_head.html?type=text/ng-html&id=3e2a2550fdd7bb17032cb721cee9bdcd89cf2857a5b52404f5e0e00673fa4308:ET:load_pathI"vendor/assets/components;T:filenameI">vendor/assets/components/matchmedia/test/iframe_head.html;T:	nameI" matchmedia/test/iframe_head;T:logical_pathI"%matchmedia/test/iframe_head.html;T:content_typeI"text/ng-html;T:sourceI"¬<!DOCTYPE html>
+<html>
+    <head>
+        <title>matchMedia polyfill test page</title>
+    </head>
+    <body>
+        <iframe src="body.html"></iframe>
+    </body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"Lfile-digest://vendor/assets/components/matchmedia/test/iframe_head.html;TTF:charsetI"
+utf-8;F:digest"%ò$1ÿGc¥Şe¼#‰ê¼¥~qõq¥Œë=Å³:lengthi¬:dependencies_digest"%û¯¸tµÆÅ“®úõæ)Í0’ZËé¢ÆàÆ£%„:idI"E3e2a2550fdd7bb17032cb721cee9bdcd89cf2857a5b52404f5e0e00673fa4308;F:
+mtimel+zOR

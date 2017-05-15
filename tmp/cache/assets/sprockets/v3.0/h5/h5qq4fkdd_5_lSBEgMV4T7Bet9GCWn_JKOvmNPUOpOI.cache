@@ -1,0 +1,37 @@
+{:uriI"”file://app/assets/javascripts/app/templates/navbar/navbar.html?type=text/ng-html&id=43ff82b862b48e7c74dd1ae6c55613cada94e503f3953b7aa97f2b94a0e2db67:ET:load_pathI"app/assets/javascripts;T:filenameI"<app/assets/javascripts/app/templates/navbar/navbar.html;T:	nameI" app/templates/navbar/navbar;T:logical_pathI"%app/templates/navbar/navbar.html;T:content_typeI"text/ng-html;T:sourceI"!<div class="navbar navbar-default navbar-static-top">
+    <div class="container" ng-controller="LogoutController">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" ng-click="nav.isCollapsed = !nav.isCollapsed">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/" class="navbar-brand" ng-click="nav.setPage($event)">TaganTeam</a>
+        </div>
+        <div uib-collapse="nav.isCollapsed" class="navbar-collapse collapse" id="navbar-main">
+            <ul class="nav navbar-nav"  ng-click="nav.setPage($event)">
+                <li ng-class="{'active': nav.activePage == '/'}">
+                    <a href="/">Worktime</a>
+                </li>
+                <li ng-class="{'active': nav.activePage == '/employees'}">
+                    <a href="employees">Employees</a>
+                </li>
+                <li ng-class="{'active': nav.activePage == '/worldtime'}">
+                    <a href="worldtime">WorldTime</a>
+                </li>
+                <li ng-class="{'active': nav.activePage == '/chats'}">
+                    <a href="chats">Chats</a>
+                </li>
+            </ul>
+                <log-out></log-out>
+            <ul  class="nav navbar-nav navbar-right">
+                <li ><a id="logout" ng-click="log.logout()" href="#">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"Jfile-digest://app/assets/javascripts/app/templates/navbar/navbar.html;TTF:charsetI"
+utf-8;F:digest"%Ù®QŽú žº![çØq±Qý‹+Æ¤õçN&ã¡:lengthi!:dependencies_digest"%z>±ŸXpõà¬*v¡·× ž_–ëáÑ?r~>O/²y:idI"E43ff82b862b48e7c74dd1ae6c55613cada94e503f3953b7aa97f2b94a0e2db67;F:
+mtimel+bY

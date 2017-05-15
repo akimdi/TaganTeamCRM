@@ -1,0 +1,46 @@
+{:uriI"°file://vendor/assets/components/modernizr/test/caniuse_files/pushstate.html?type=text/ng-html&id=c750c82662884dddb543152369898e56d8618e2b218cf50f98ce5b8fd8fe20b7:ET:load_pathI"vendor/assets/components;T:filenameI"Ivendor/assets/components/modernizr/test/caniuse_files/pushstate.html;T:	nameI"+modernizr/test/caniuse_files/pushstate;T:logical_pathI"0modernizr/test/caniuse_files/pushstate.html;T:content_typeI"text/ng-html;T:sourceI"h<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>popstate event test</title>
+</head>
+<body>
+
+<script>
+
+(function() {
+	var test_id;
+	
+	function showResult(r) {
+		if(test_id && window.parent.setResult) {
+			parent.setResult(test_id, r);
+		} else {
+			alert(r);
+		}
+	}
+	
+	if(location.hash.length) {
+		test_id = location.hash.substr(1);
+	}
+	
+	if(history.pushState) {
+		var rand = Math.random();
+		setTimeout(function() {
+			history.pushState({foo: 'bar'}, "title", './' + rand);
+			var result = (location.href.indexOf(rand) > -1);
+			showResult(result);
+		}, 100);
+	} 
+	
+})();
+
+</script>
+
+</body>
+</html>
+;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"Wfile-digest://vendor/assets/components/modernizr/test/caniuse_files/pushstate.html;TTF:charsetI"
+utf-8;F:digest"%í ?$KÜìÒ¡hHùZ„UÑ∆.∞R?S<"|=:lengthih:dependencies_digest"%..
+"∆÷Äø⁄ñ†⁄oW1‡ÇdÎ%=öÌ∞ƒ:idI"Ec750c82662884dddb543152369898e56d8618e2b218cf50f98ce5b8fd8fe20b7;F:
+mtimel+ËìµS

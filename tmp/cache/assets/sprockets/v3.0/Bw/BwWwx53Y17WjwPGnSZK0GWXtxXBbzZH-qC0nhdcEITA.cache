@@ -1,0 +1,18 @@
+{:uriI"ùfile://vendor/assets/components/modernizr/test/caniuse_files/xhtml.html?type=text/ng-html&id=2b5c80f323e25bb2ae187f493a6a7539425aeb0aa2fb85f430db81280b24b173:ET:load_pathI"vendor/assets/components;T:filenameI"Evendor/assets/components/modernizr/test/caniuse_files/xhtml.html;T:	nameI"'modernizr/test/caniuse_files/xhtml;T:logical_pathI",modernizr/test/caniuse_files/xhtml.html;T:content_typeI"text/ng-html;T:sourceI" <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Untitled</title>
+</head>
+<body><p>true</p>	
+	<script>
+	<![CDATA[
+	window.parent.setResult('xhtml0', document.body.firstChild.textContent == 'true');
+	]]>
+	</script>
+</body>
+</html>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"Sfile-digest://vendor/assets/components/modernizr/test/caniuse_files/xhtml.html;TTF:charsetI"
+utf-8;F:digest"%åi“eˇMòÕ#ÖBŸwJ—;@rìÈ#≈Í&Î#î!Ã:lengthi :dependencies_digest"%∂[ÚÓñ]~©≥*cH©4£=Pv±Ddaz9‡¶pÍ:idI"E2b5c80f323e25bb2ae187f493a6a7539425aeb0aa2fb85f430db81280b24b173;F:
+mtimel+ËìµS

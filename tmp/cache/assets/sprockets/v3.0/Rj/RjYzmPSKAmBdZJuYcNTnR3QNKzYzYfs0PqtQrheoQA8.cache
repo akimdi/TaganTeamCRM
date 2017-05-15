@@ -1,0 +1,29 @@
+{:uriI"–file://app/assets/javascripts/app/templates/chats/chats.tpl.html?type=text/ng-html&id=97562c7fa5cc0fd1b0f97e7773ac5ad281c40bd61fbf62f10c339e45945a0df4:ET:load_pathI"app/assets/javascripts;T:filenameI">app/assets/javascripts/app/templates/chats/chats.tpl.html;T:	nameI""app/templates/chats/chats.tpl;T:logical_pathI"'app/templates/chats/chats.tpl.html;T:content_typeI"text/ng-html;T:sourceI"Ï<div class="chats">
+    <div scroll-glue class="messages">
+        <ul>
+            <li  ng-repeat="comment in chatsCtrl.allMessages">
+                <div class="messages-container">
+                    <div ng-class="{'btn-warning': comment.name=='Error'}">
+                        <a href="" ng-click="chatsCtrl.addressee(comment.name)">
+                            <h5 class="author">
+                                {{comment.name}}
+                            </h5>
+                        </a>
+                        <h6 class="time">{{comment.time}}</h6>
+                    </div>
+                    <h5 class="message">{{comment.message}}</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="input-messages">
+        <textarea no-new-lines ng-keypress="$event.keyCode == 13 && chatsCtrl.sendMessage()"
+                  ng-model="chatsCtrl.message" placeholder="Please, enter your message">
+        </textarea>
+
+    </div>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"Lfile-digest://app/assets/javascripts/app/templates/chats/chats.tpl.html;TTF:charsetI"
+utf-8;F:digest"%ÿÃÔûç©*YÕKdd²Á@¼|–‰Ö NÆ/h:lengthiÏ:dependencies_digest"%$øH	ôûb-âA¬QŒ,G—ï’İápÛÉ÷Q€Æë§:idI"E97562c7fa5cc0fd1b0f97e7773ac5ad281c40bd61fbf62f10c339e45945a0df4;F:
+mtimel+bY

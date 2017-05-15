@@ -1,7 +1,7 @@
 ActiveAdmin.register Commission do
   permit_params :company_id, :percent
 
-  filter :company_id, as: :select, collection: Company.all.map{ |company| ["#{company.name}", company.id]}
+  # filter :company_id, as: :select, collection: Company.all.map{ |company| ["#{company.name}", company.id]}
   filter :amount
 
   index do

@@ -1,0 +1,100 @@
+{:uriI"ûfile://vendor/assets/components/ngSticky/examples/demo-inner-scroll.html?type=text/ng-html&id=190c203255d14cfdd245cd2578ea5e124d56f6a09e49c8475ef0927389a6ef17:ET:load_pathI"vendor/assets/components;T:filenameI"Fvendor/assets/components/ngSticky/examples/demo-inner-scroll.html;T:	nameI"(ngSticky/examples/demo-inner-scroll;T:logical_pathI"-ngSticky/examples/demo-inner-scroll.html;T:content_typeI"text/ng-html;T:sourceI"‹<!doctype html>
+<html>
+<head>
+  <title>Angular-Sticky Demo</title>
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      font-family: sans-serif;
+    }
+    .sticky-box {
+      width: 200px;
+      height: 200px;
+      color: #fff;
+    }
+    .scrolling-container {
+      display: block;
+      background-image: url(http://www.georgebenainous.com/web/code/layout_grid.gif);
+
+      height: 500px;
+      overflow-y: scroll;
+    }
+    .container {
+      float: left;
+      width: 300px;
+      height: 400px;
+      padding: 50px;
+      border-bottom: 0px solid #AEAEAE;
+      background-color: rgba(0, 0, 0, 0.1);
+      margin:0 50px 50px 0;
+    }
+    .clearfix {
+      clear: both;
+    }
+  </style>
+</head>
+
+<body ng-app="demo" ng-controller="demoCtrl">
+
+  <div style="height: 100px;"></div>
+
+  <sticky-scroll class="scrolling-container">
+    <div class="container">
+      <div class="sticky-box" style="background-color: blue; margin: 50px;" media-query="min-width: 768px" sticky confine="true">
+        Style:<br>
+        margin: 50px;<br>
+        <br>
+        Options:<br>
+        media-query="min-width: 768px"<br>
+        confine="true"
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sticky-box" style="background-color: blue;" sticky offset="25" confine="true">
+        Options:<br>
+        offset="25"
+        confine="true"
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="container">
+      <div class="sticky-box" style="background-color: blue; margin: 50px;" sticky confine="true">
+        Style:<br>
+        margin: 50px;<br>
+        <br>
+        Options:<br>
+        confine="true"
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="sticky-box" style="background-color: blue; margin: 50px;" sticky>
+        Style:<br>
+        margin: 50px;<br>
+      </div>
+    </div>
+
+    <div style="height: 1200px;"></div>
+  </sticky-scroll>
+
+  <aside role="scripts">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.20/angular.min.js"></script>
+    <script src="../lib/sticky.js"></script>
+    <script>angular.module('demo', ['sticky']).controller('demoCtrl', function($scope) {
+          $scope.disableSticking = false;
+        });
+    </script>
+  </aside>
+
+</body>
+
+</html>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"Tfile-digest://vendor/assets/components/ngSticky/examples/demo-inner-scroll.html;TTF:charsetI"
+utf-8;F:digest"%AÛÈxŸ:Ÿøi≤ˆ!)≤èjƒ!3€a⁄‚ÅB6±:lengthi‹:dependencies_digest"%WeÉıtπ Oæ,˜^ÑÚÕ«ò¿Âa‘Úÿ#k1x:idI"E190c203255d14cfdd245cd2578ea5e124d56f6a09e49c8475ef0927389a6ef17;F:
+mtimel+‹!W

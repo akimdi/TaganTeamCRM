@@ -1,0 +1,45 @@
+{:uriI"úfile://app/assets/javascripts/app/templates/worktime/worktime.tpl.html?type=text/ng-html&id=95c6ced250cfa01fb942999e33b443c651866791716c262b507fb56bbe2e063b:ET:load_pathI"app/assets/javascripts;T:filenameI"Dapp/assets/javascripts/app/templates/worktime/worktime.tpl.html;T:	nameI"(app/templates/worktime/worktime.tpl;T:logical_pathI"-app/templates/worktime/worktime.tpl.html;T:content_typeI"text/ng-html;T:sourceI"ç<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="worktime-bordered">
+                <div class="worktime-header">
+                    <h4>Worktime</h4>
+                </div>
+                <div class="worktime-body">
+                    <h3> Hours worked: <span class="label label-success">{{ worktimeCtrl.hoursWorked }}</span> </h3>
+                    <h3> Remains to work out: <span class="label label-success">{{ worktimeCtrl.remainsWork }}</span> </h3>
+                </div>
+                <div class="worktime-footer">
+                    <div ng-show="worktimeCtrl.userStatus != null" class="buttons animation">
+                        <div ng-if="worktimeCtrl.userStatus!='offline'">
+                            <p  class="btn-pause">
+                                <a  class="btn btn-primary"
+                                    ng-click="worktimeCtrl.pause()"
+                                    ng-class="{'btn-warning': worktimeCtrl.userStatus == 'away'}">
+                                    {{worktimeCtrl.userStatus=='away'?'Continue':'Pause'}}
+                                </a>
+                            </p>
+
+                            <p class="btn-move">
+                                <a  class="btn btn-primary"
+                                    ng-click="worktimeCtrl.moveAway()">
+                                    Move away
+                                </a>
+                            </p>
+                        </div>
+                        <p ng-if="worktimeCtrl.userStatus=='offline'" class="btn-start">
+                            <a  class="btn btn-success"
+                                ng-click="worktimeCtrl.startTime()">
+                                Start
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>;T:metadata{	:dependencieso:Set:
+@hash}
+I"environment-version;TTI"environment-paths;TTI"rails-env;TTI"8processors:type=text/ng-html&file_type=text/ng-html;TTI"Rfile-digest://app/assets/javascripts/app/templates/worktime/worktime.tpl.html;TTF:charsetI"
+utf-8;F:digest"%Ñ©ôY>M÷≈2KÛÊH∂›´\»U‰oâ9!ÚÙcZÍä:lengthiç:dependencies_digest"%f√îìΩ⁄,h4r&õ‚çfZÔrG]\ì+Àƒ“:idI"E95c6ced250cfa01fb942999e33b443c651866791716c262b507fb56bbe2e063b;F:
+mtimel+bY
