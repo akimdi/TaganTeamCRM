@@ -63,7 +63,7 @@ end
 
 gem "haml-rails", "~> 0.9"
 
-gem 'grape', '~> 0.9.0'
+gem 'grape', '~> 1.5.1'
 gem 'grape-swagger', '~> 0.8.0'
 gem 'grape-swagger-rails', git: 'https://github.com/ruby-grape/grape-swagger-rails'
 gem 'rack-cors', :require => 'rack/cors'
